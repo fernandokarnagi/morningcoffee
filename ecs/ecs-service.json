@@ -1,5 +1,5 @@
 {
-    "cluster": "morningcoffee-sg",
+    "cluster": "morningcoffee",
     "serviceName": "morningcoffee-service",
     "taskDefinition": "morningcoffee-taskdef",
     "loadBalancers": [
