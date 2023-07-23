@@ -1,1 +1,1 @@
-aws ecs register-task-definition --cli-input-json file://task-definition-v2.json
+aws ecs register-task-definition --cli-input-json file://ecs/task-definition-v2.json

@@ -1,1 +1,1 @@
-aws ecs update-service --cluster morningcoffee --service morningcoffee-service --task-definition morningcoffee-taskdef:2
+aws ecs update-service --cluster morningcoffee --service morningcoffee-service --task-definition morningcoffee-taskdef:3
