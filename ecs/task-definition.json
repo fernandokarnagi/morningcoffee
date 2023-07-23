@@ -1,0 +1,18 @@
+{
+    "family": "morningcoffee-taskdef",
+    "containerDefinitions": [
+        {
+            "name": "morningcoffee-container",
+            "image": "fkarnagi/morningcoffee:1.0.0",
+            "cpu": 128,
+            "memoryReservation": 128,
+            "portMappings": [
+                {
+                    "containerPort": 4567,
+                    "protocol": "tcp"
+                }
+            ],
+            "essential": true
+        }
+    ]
+}

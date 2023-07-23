@@ -1,0 +1,1 @@
+aws ec2 authorize-security-group-ingress --group-name morningcoffee-ecs-sg --protocol tcp --port 1-65535 --source-group morningcoffee-elb-sg
