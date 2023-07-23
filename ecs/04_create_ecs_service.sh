@@ -1,1 +1,1 @@
-aws ecs create-service --cli-input-json file://ecs-service.json
+aws ecs create-service --cli-input-json file://ecs/ecs-service.json
