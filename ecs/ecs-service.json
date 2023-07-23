@@ -4,7 +4,7 @@
     "taskDefinition": "morningcoffee-taskdef",
     "loadBalancers": [
         {
-            "targetGroupArn": "arn:aws:elasticloadbalancing:ap-southeast-1:360909125965:targetgroup/cyder-target-group-ecs/73aa6664b773351e",
+            "targetGroupArn": "arn:aws:elasticloadbalancing:ap-southeast-1:360909125965:targetgroup/morningcoffee-target-group-ecs-1/70c86ef5db8d66f2",
             "containerName": "morningcoffee-container",
             "containerPort": 80
         }
